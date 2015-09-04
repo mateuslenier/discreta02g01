@@ -55,6 +55,7 @@ typedef struct sl
 int ulet(char *in, ullong *out);
 int div2(char *in, char *out);
 int uadd(ullong *a, ullong *b, ullong *c);
+int isprime(long *n);
 
 int main(void)
 {
@@ -164,4 +165,11 @@ int uadd(ullong *a, ullong *b, ullong *c)
     if(carry)
         carry = 1;
     return carry;
+}
+
+
+//Função para descobrir se um número é primo ou não
+int isprime(long *n)
+{
+;
 }
