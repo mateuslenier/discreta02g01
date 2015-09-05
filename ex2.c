@@ -169,5 +169,12 @@ int uadd(ullong *a, ullong *b, ullong *c)
 
 int isprime (long *n)
 {
-    ;
+    int c;
+    for c(c=2; c<=*n-1; c++)
+    {
+        if(*n ==0 )
+            return 0;
+    }
+    if(c ==*n)
+        return 1;
 }
